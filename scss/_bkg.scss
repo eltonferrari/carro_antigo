@@ -1,3 +1,11 @@
+@import 'variaveis';
+
 .bkg-home {
-    background: $cor-bkg;
+    display: flex;           // Adicione esta linha
+    justify-content: center; // Centraliza horizontalmente
+    align-items: center;     // Centraliza verticalmente
+    background: linear-gradient(135deg, $bege-claro2 0%, $bege-claro1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
